@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<title>gang - welcome</title>
+<meta charset="utf-8">
+</haed>
+<style>
+body{
+  margin:0;
+}
+a {
+  clolr:black;
+  text-decoration: none;
+}
+h1 {
+  font-size:60px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right:1px solid gray;
+  width:100px;
+margin:0;
+padding:20px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  padding-left:40px;
+}
+#grid #article{
+  padding-left:40px
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right:none;
+}
+h1 {
+  border-bottom:none;
+}
+}
+  </style>
+  <h1><a href="index.html">WEB</a></h1>
+  <input type="button" value="첫번째모찌" onclick="
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color ='white';
+  ">
+
+  <input type="button" value="두번째모찌" onclick="
+  document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color ='black';
+  ">
+
+  <input type="button" value="black" onclick="
+  if(document.querySelector('body').dataset.mode === 'day'){
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    document.querySelector('body').dataset.mode = 'night';
+    this.value = 'day';
+  } else {
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('body').dataset.mode = 'day';
+    this.value = 'night';
+}
+">
+
+
+<input type="button" value="1번버튼" onclick="
+document.querySelector('body').style.backgroundColor = 'red';
+document.querySelector('body').style.color ='pink';
+">
+
+<input type="button" value="2번버튼" onclick="
+document.querySelector('body').style.backgroundColor = 'pink';
+document.querySelector('body').style.color ='red';
+">
+
+
+
+  <ol>
+      <li><a href="1.html">갱원</a></li>
+      <li><a href="2.html">갱투</a></li>
+      <li><a href="3.html">갱쓰리</a></li>
+  </ol>
+<div id="grid">
+<h2> 갱이와 모찌의 관계</h2>
+<div id="article">
+<p>
+  아무튼 다행이라고 할 수 있는 게 바로 제가 염려하던 스코티쉬폴드 고양이 유전병은 아니었네요
+  그리고 지금의 경우 완치까지는 아니지만 어느 정도 건강해져서 아주 생활하는 데는
+  문제가 없다고 볼 수 있답니다 워낙에 먹는 걸 잘 먹기도 하고 말이에요 다른 애들 증상 보면 사료를
+  안 먹어서 걱정을 많이 하기도 하는데 모찌는 먹성은 진짜 타고났나 봐요
+  일단 지금은 3달째인데 괜찮아져서 3개월마다 한 번씩 가서 피검사랑 촬영하고 결석이
+  얼마큼 어느 정도 이동을 했는지에 대해 보면서 관리를 하는 걸로 했어요
+  요즘에는 아주 날아다니고 난리도 아니랍니다 점프력까지 더 올라가지고 장난감 가지고
+  놀아주면 아주 난리가 날 정도이니까 말이에요 다들 보기에도 상태가
+  좋아졌다고 말해서 제 기분이 뿌듯한 건 왜일까요 아무튼 돈은 꽤나 많이 들었어요
+  제가 여유가 안된다면 이렇게 아플 때 어떻게 해야 하나 걱정이
+  많이 되더라고요 하지만 이런 순간을 대비해야 한다는 생각에 꾸준하게 모으고 있다
+  보니까 급한 순간에 바로바로 해결을 할 수 있었던 거 같아요
+  물론 생각보다 많이 들어서 놀랬지만, 비슷한 질환으로 다른 분들 쓴 거 보니까
+  저보다 어마어마하게 쓰신 분들도 많더라고요 물론 다 건강해지라고
+  하는 거라서 아깝지는 않아요 진짜 동물을 키우는 건 이런 순간까지 다 대비를 하고
+  키우는 게 중요한 거 같아요 저는 처음에 단순하게 귀엽다고만
+  생각을 해서 만나게 되었지만 처음인 저도 이렇게 이 녀석을 키우면서 많은 걸
+  알아가고 있답니다 나중에 무지개다리 가게 되면 그때는 상상조차 하기 싫지만
+  함께 하는 지금이 너무 좋기도 해서 오랫동안 살 수 있도록 잘 케어해줄 거예요</p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ChrqHpc1HPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<br><br><br>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5cebbf8aa667a0210d599d78/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+</div>
+</div>
+</body>
+</html>
